@@ -60,7 +60,19 @@ Inspired by Laravel Validator.
                 }
             }
         }
-    }]);
+    }]);,
+#### Add Validator directive to your Twitter Bootstrap form and that's all!!!
 
+    <form validator>
+       <div class="form-group">
+           <input type="text" ng-model="first_name" name="first_name">
+       </div>
+       <div class="form-group">
+           <input type="text" ng-model="last_name" name="last_name">
+       </div>
+       <div class="form-group">
+           <input type="text" ng-model="email" name="email">
+       </div>
+    </form>
 
 
