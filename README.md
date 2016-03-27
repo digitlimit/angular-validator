@@ -26,11 +26,16 @@ Inspired by Laravel Validator.
                         success: function(response){
                            //stuffs here if need be. Example hide a loader
                            //eg $scope.loadinImage = false;
+                        },
+                        //error callback is optional
+                        error: function(error){
+                            console.log(error);
                         }
                
                     }    
-                }]
-
+                }],
+                password: 'required|min:6',
+                country: ['required', 'max:80']
             }
 
         }
