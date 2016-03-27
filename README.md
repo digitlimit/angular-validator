@@ -44,6 +44,7 @@ Inspired by Laravel Validator.
                 //its your duty toensure there is a second validation 
                 //on server before saving     
             },
+
             //optionally do other things if validation failed
             error: function(errors) {
                //alert('opps correct errors on form');
@@ -73,6 +74,15 @@ Inspired by Laravel Validator.
        <div class="form-group">
            <input type="text" ng-model="email" name="email">
        </div>
+       <div class="form-group">
+           <input type="password" ng-model="password" name="password">
+       </div>
+       <div class="form-group">
+           <input type="text" ng-model="country" name="country">
+       </div>
     </form>
 
 
+### Available validators
+###### required
+The field under validation must be completed
