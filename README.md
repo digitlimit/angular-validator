@@ -30,8 +30,9 @@ Inspired by Laravel Validator.
                         //error callback is optional
                         error: function(error){
                             console.log(error);
-                        }
-               
+                        },
+                        //optional message displayed during server validation, default is "checking..."
+                         message: 'Validating...'
                     }    
                 }],
                 password: 'required|min:6',
@@ -59,6 +60,13 @@ Inspired by Laravel Validator.
                 first_name: {
                     required: 'we need your first name'
                 }
+            },
+            
+            //Validation status icons
+            icons: {
+                error : 'fa fa-times-circle',
+                success: 'fa fa-check-circle',
+                pending: 'fa fa-refresh fa-spin' //displayed during server-side validation
             }
         }
     }]);,
