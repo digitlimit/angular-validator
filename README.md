@@ -5,6 +5,15 @@ Inspired by Laravel Validator.
 
 ## How to use this module
 
+#### Install through bower
+
+    bower install digitlimit-angular-validator --save
+
+#### Add Angular Validator to your HTML template
+
+    <script src="bower_components/angular-validator/angular-validator.js"></script>
+    <link rel="stylesheet" href="bower_components/angular-validator/angular-validator.css">
+
 #### Add Validator to your angular module as a depency like so:
 
     var myapp = angular.module('myapp',
