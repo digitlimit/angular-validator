@@ -1,0 +1,97 @@
+.has-success .help-block, .has-success .control-label, .has-success .radio, .has-success .checkbox, .has-success .radio-inline, .has-success .checkbox-inline {
+    color: #8cc152;
+}
+.has-success .form-control {
+    border-color: #8cc152;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+.has-success .form-control:focus {
+    border-color: #8cc152;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+.has-success .input-group-addon {
+    background-color: #8cc152;
+    border-color: #8cc152;
+}
+.has-success .form-control-feedback {
+    color: #8cc152;
+}
+
+.has-warning .help-block, .has-warning .control-label, .has-warning .radio, .has-warning .checkbox, .has-warning .radio-inline, .has-warning .checkbox-inline {
+    color: #f6bb42;
+}
+.has-warning .form-control {
+    border-color: #f6bb42;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+.has-warning .form-control:focus {
+    border-color: #f6bb42;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+.has-warning .input-group-addon {
+    background-color: #f6bb42;
+    border-color: #f6bb42;
+}
+.has-warning .form-control-feedback {
+    color: #f6bb42;
+}
+
+.has-error .help-block, .has-error .control-label, .has-error .radio, .has-error .checkbox, .has-error .radio-inline, .has-error .checkbox-inline {
+    color: #da4453;
+}
+.has-error .form-control {
+    border-color: #da4453;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+.has-error .form-control:focus {
+    border-color: #da4453;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+.has-error .input-group-addon {
+    background-color: #da4453;
+    border-color: #da4453;
+    z-index: 22222222;
+}
+.has-error .form-control-feedback {
+    color: #da4453;
+}
+
+.has-success input[type=text],
+.has-success input[type=password],
+.has-success textarea,
+.has-success select,
+.has-success .summernote{
+    background: rgba(140, 193, 82, 0.20);
+}
+
+.has-error input[type=text],
+.has-error input[type=password],
+.has-error textarea,
+.has-error select,
+.has-error .summernote{
+    background: rgba(218, 68, 83, 0.06);
+}
+
+.has-warning input[type=text],
+.has-warning input[type=password],
+.has-warning textarea,
+.has-warning select,
+.has-warning .summernote{
+    background: rgba(246, 187, 66, 0.13);
+}
+
+.form-group .help-block{
+    font-size:14px;
+}

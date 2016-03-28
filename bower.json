@@ -1,0 +1,35 @@
+{
+  "name": "angular-validator",
+  "version": "0.0.0",
+  "main": "angular-validator.js",
+  "authors": [
+    "Mbah Emeka <frankemeks77@yahoo.com>"
+  ],
+  "description": "Super powerful and easy to use Angular Validator Inspired by Laravel Validator",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "angular-validator",
+    "bootstrap-angular-validator",
+    "laravel-angular-validator",
+    "angular",
+    "bootstrap",
+    "angular",
+    "validator"
+  ],
+  "license": "MIT",
+  "homepage": "http://digitlimit.com/packages/angular/validator",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+   "dependencies": {
+    "angular": "^1.5.0",
+    "font-awesome": "^4.5.0"
+  }
+}

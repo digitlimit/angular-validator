@@ -1,0 +1,16 @@
+.has-success .checkbox,.has-success .checkbox-inline,.has-success .control-label,.has-success .help-block,.has-success .radio,.has-success .radio-inline{color:#8cc152}
+.has-success .form-control,.has-success .form-control:focus{border-color:#8cc152;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none}
+.has-success .input-group-addon{background-color:#8cc152;border-color:#8cc152}
+.has-success .form-control-feedback{color:#8cc152}
+.has-warning .checkbox,.has-warning .checkbox-inline,.has-warning .control-label,.has-warning .help-block,.has-warning .radio,.has-warning .radio-inline{color:#f6bb42}
+.has-warning .form-control,.has-warning .form-control:focus{border-color:#f6bb42;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none}
+.has-warning .input-group-addon{background-color:#f6bb42;border-color:#f6bb42}
+.has-warning .form-control-feedback{color:#f6bb42}
+.has-error .checkbox,.has-error .checkbox-inline,.has-error .control-label,.has-error .help-block,.has-error .radio,.has-error .radio-inline{color:#da4453}
+.has-error .form-control,.has-error .form-control:focus{border-color:#da4453;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none}
+.has-error .input-group-addon{background-color:#da4453;border-color:#da4453;z-index:22222222}
+.has-error .form-control-feedback{color:#da4453}
+.has-success .summernote,.has-success input[type=password],.has-success input[type=text],.has-success select,.has-success textarea{background:rgba(140,193,82,.2)}
+.has-error .summernote,.has-error input[type=password],.has-error input[type=text],.has-error select,.has-error textarea{background:rgba(218,68,83,.06)}
+.has-warning .summernote,.has-warning input[type=password],.has-warning input[type=text],.has-warning select,.has-warning textarea{background:rgba(246,187,66,.13)}
+.form-group .help-block{font-size:14px}
