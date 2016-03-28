@@ -20,7 +20,7 @@
   ],
   "license": "MIT",
   "homepage": "http://digitlimit.com/packages/angular/validator",
-  "private": true,
+  "private": false,
   "ignore": [
     "**/.*",
     "node_modules",
